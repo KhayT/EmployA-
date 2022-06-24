@@ -10,12 +10,7 @@
   "scripts": {
     "compile:shared": "node-sass assets/sass/sharedSass/main.scss assets/styles/shared.css -w",
     "compile:landingPage": "node-sass assets/sass/landingPage/main.scss assets/styles/landingPage.css -w",
-    "compile:pricing": "node-sass assets/sass/pricing/main.scss assets/styles/pricing.css -w",
-    "compile:aboutUs": "node-sass assets/sass/aboutUs/main.scss assets/styles/aboutUs.css -w",
-    "compile:getStarted": "node-sass assets/sass/getStarted/main.scss assets/styles/getStarted.css -w",
-    "compile:signIn": "node-sass assets/sass/signIn/main.scss assets/styles/signIn.css -w",
-    "compile:forgetPassword": "node-sass assets/sass/forgetPassword/main.scss assets/styles/forgetPassword.css -w",
-    "compile:all": "npm-run-all --parallel compile:shared compile:landingPage compile:pricing compile:aboutUs compile:getStarted compile:signIn compile:forgetPassword"
+    "start": "npm-run-all --parallel compile:shared compile:landingPage"
   },
   "author": "Employ-A developers",
   "license": "ISC"
